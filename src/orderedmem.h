@@ -22,23 +22,7 @@
  * Here starts the PUBLIC stuff:
  *	Enter PUBLIC declarations using EXTERN!
  */
-
-struct orderedmem_list_element {
-	void *mem;
-	void *priv;
-	struct orderedmem_list_element *next;
-	struct orderedmem_list_element *previous;
-};
-
-struct orderedmem_list_header {
-	int mem_size;
-	int num_elements;
-	struct orderedmem_list_element *first;
-};
-
-EXTERN int insert_into_orderedmem_list(struct orderedmem_list_header *head, struct orderedmem_list_element *new);
-EXTERN struct orderedmem_list_element * select_from_orderedmem_list(struct orderedmem_list_header *head, void *mem);
-EXTERN int remove_from_orderedmem_list(struct orderedmem_list_header *head, struct orderedmem_list_element *old);
+#include <libolists/olists.h>
 
 #ifdef orderedmem_c
 /*

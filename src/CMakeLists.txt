@@ -16,4 +16,4 @@ add_library (olists SHARED orderedstr.c orderedmem.c)
 set_target_properties (olists PROPERTIES VERSION ${project_VERSION_STRING} SOVERSION ${project_VERSION_MAJOR})
 
 install(TARGETS olists DESTINATION lib COMPONENT libs)
-install(FILES ${project_SOURCE_DIR}/include/olists/olists.h DESTINATION include/olists COMPONENT headers)
+install(FILES ${project_SOURCE_DIR}/include/libolists/olists.h DESTINATION include/libolists COMPONENT headers)

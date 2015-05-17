@@ -46,7 +46,7 @@ set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -DOLISTSLOG_MODULE_DEBUG=1 -
 # cause another cmake executable to run. The same process will walk through
 # the project's entire directory structure.
 add_subdirectory (src)
-add_subdirectory (demos)
+#add_subdirectory (demos)
 
 # build a CPack driven installer package
 include (InstallRequiredSystemLibraries)

@@ -1,0 +1,14 @@
+# For each component package name specific content may be defined:
+# - runtime content,
+# - content provided for development,
+# - debugging content, 
+# - ...
+
+COMP_PACKAGES=(olists)
+
+COMP_PACKAGE_olists=(runtime devel)
+
+COMP_PACKAGE_olists_runtime=("lib")
+
+COMP_PACKAGE_olists_devel=("include" "lib")
+

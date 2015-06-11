@@ -64,5 +64,8 @@ $ git clean -d -f -x
 
 Demos:
 ======
-Programs included under "demos" directory demonstrate usage of the olists library.
+Programs included under "demos" directory demonstrate usage of the olists library (still missing).
 
+U2UP packaging:
+===============
+Requires build.u2up component framework to be installed.
